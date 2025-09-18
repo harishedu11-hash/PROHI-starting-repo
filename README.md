@@ -10,14 +10,22 @@ _Note that this file is written in **MarkDown** language. A reference is availab
 _Here you can include images, like the logo from SU_
 
 ![Your dashboard](./assets/project-logo.jpg)
-![Dashboard Screenshot 1](assets/Screenshot1.png)
-![Dashboard Screenshot 2](assets/Screenshot2.png)
+![Dashboard Screenshot 1](assets\Dashboard_1.png)
+![Dashboard Screenshot 2](assets\Dashboard_2.png)
 
 ## Introduction
 
 _This project looks at data about people’s lifestyles, habits, and health to find patterns linked to obesity. Using easy-to-understand steps in Python, it shows how we can predict someone’s obesity level and learn what factors matter most_
 
 ## System description
+
+The project consists of:
+
+- 'Dashboard.py': the main dashboard file.
+
+- 'pages/About.py': contains author information and a project summary.
+
+- 'assets/': contains images and screenshots.
 
 ### Installation of libraries
 
@@ -50,11 +58,7 @@ First, make sure that you are running Python from the environment. Check the ste
 Tested on Python 3.12.7 with the following packages:
   - Jupyter v1.1.1
   - Streamlit v1.46.1
-  - Seaborn v0.13.2
-  - Plotly v6.2.0
-  - Scikit-Learn v1.7.0
-  - shap v0.48.0
-
+ 
 ## Contributors
 
 _Harish Mohankumar_

@@ -56,3 +56,32 @@ st.set_page_config(page_title='Obesity Dashboard', layout='centered')
 # Sidebar for page navigation
 page = st.sidebar.selectbox('Select a page', ['Dashboard', 'About'])
 
+if page == 'Dashboard':
+    st.title('Obesity Scenario Dashboard')
+    
+    # Input widgets for height, weight and bmi
+    height = st.slider('Height (cm)', 120, 220, 170)
+    weight = st.slider('Weight (kg)', 40, 150, 70)
+    bmi = st.number_input('BMI', 10.0, 50.0, 24.2)
+    
+    # Generate synthetic data
+    data = np.random.randn(10, 3)
+    df = pd.DataFrame(data, columns=['Height', 'Weight', 'BMI'])
+    
+    # Display dataframe
+    st.dataframe(df)
+    
+    # Display chart with synthetic data
+    st.line_chart(df)
+
+elif page == 'About':
+    st.title('Harish Mohankumar')
+    st.markdown("""
+    ## Project Summary
+
+During the DSHI course, I conducted a project focused on exploring obesity trends using a comprehensive dataset consisting of 2111 records from individuals in Mexico, Peru, and Colombia. The dataset includes 17 features encompassing numerical, categorical, and binary variables related to lifestyle, eating habits, physical activity, and demographic information. The primary objective was to understand factors contributing to various obesity levels and to classify individuals accordingly.
+
+My analysis involved data understanding, preprocessing, and basic exploratory data analysis using Python libraries such as Pandas and Plotly Express. I examined relationships between height, weight, diet habits, and obesity categories. The project also explored how features like family history and physical activity frequency affect obesity prediction. This hands-on work enhanced my skills in data manipulation, visualization, and applying machine learning concepts within healthcare, providing valuable insights relevant to health informatics and data-driven decision-making.
+
+The best-performing model was a Gradient Boosting classifier with 50 estimators, achieving the highest accuracy and balanced performance metrics among all models tested.
+""")

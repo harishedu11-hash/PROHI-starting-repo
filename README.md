@@ -60,7 +60,4 @@ _Contact: +46-739985766_
 
 ## Dashboard Screenshot
 
-import streamlit as st
 
-st.image("Screenshot-2025-09-18-085503.jpg", caption="Obesity Scenario Dashboard - Overview", use_column_width=True)
-st.image("Screenshot-2025-09-18-085513.jpg", caption="Obesity Scenario Dashboard - Data and Chart", use_column_width=True)

@@ -46,14 +46,10 @@ enhance the problem domain related to the selected dataset.
 
 ### UNCOMMENT THE CODE BELOW TO SEE EXAMPLE OF INPUT WIDGETS
 
-# # DATAFRAME MANAGEMENT
-# import numpy as np
+import streamlit as st
+import numpy as np
+import pandas as pd
 
-# dataframe = np.random.randn(10, 20)
-# st.dataframe(dataframe)
+# Set page configuration
+st.set_page_config(page_title='Obesity Dashboard', layout='centered')
 
-# # Add a slider to the sidebar:
-# add_slider = st.slider(
-#     'Select a range of values',
-#     0.0, 100.0, (25.0, 75.0)
-# )

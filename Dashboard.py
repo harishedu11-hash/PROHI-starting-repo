@@ -53,3 +53,6 @@ import pandas as pd
 # Set page configuration
 st.set_page_config(page_title='Obesity Dashboard', layout='centered')
 
+# Sidebar for page navigation
+page = st.sidebar.selectbox('Select a page', ['Dashboard', 'About'])
+

@@ -10,8 +10,8 @@ _Note that this file is written in **MarkDown** language. A reference is availab
 _Here you can include images, like the logo from SU_
 
 ![Your dashboard](./assets/project-logo.jpg)
-![Dashboard Screenshot 1](assets\Dashboard_1.png)
-![Dashboard Screenshot 2](assets\Dashboard_2.png)
+assets\Dashboard_1.png
+assets\Dashboard_2.png
 
 ## Introduction
 

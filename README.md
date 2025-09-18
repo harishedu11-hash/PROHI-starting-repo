@@ -55,5 +55,5 @@ Tested on Python 3.12.7 with the following packages:
 
 ## Contributors
 
-_Harish Mohankumar+
+_Harish Mohankumar_
 _Contact: +46-739985766_

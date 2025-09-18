@@ -13,7 +13,7 @@ _Here you can include images, like the logo from SU_
 
 ## Introduction
 
-_This template project will contain a simple interactive web dashboard with Streamlit. Feel free to edit this document as desired_
+_This project looks at data about people’s lifestyles, habits, and health to find patterns linked to obesity. Using easy-to-understand steps in Python, it shows how we can predict someone’s obesity level and learn what factors matter most_
 
 ## System description
 
